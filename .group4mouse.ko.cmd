@@ -1,0 +1,1 @@
+cmd_/home/datgooner/Desktop/lab-test/group4mouse.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/datgooner/Desktop/lab-test/group4mouse.ko /home/datgooner/Desktop/lab-test/group4mouse.o /home/datgooner/Desktop/lab-test/group4mouse.mod.o;  true
